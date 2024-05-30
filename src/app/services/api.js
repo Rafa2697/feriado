@@ -1,4 +1,5 @@
-'use server'
+
+
 export default async function getData() {
    
     const res = await fetch('https://brasilapi.com.br/api/feriados/v1')
